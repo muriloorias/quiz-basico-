@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória!</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            color: black;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .dourado {
+            color: gold;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: gold;
+            color: black;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="dourado">Você Venceu!</h1>
+    <button onclick="maisUma()">Quero Tentar de Novo</button>
+
+    <script>
+        function maisUma() {
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>

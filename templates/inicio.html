@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogão</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #d1c4e9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: medium;
+            text-align: center;
+        }
+        .vermelho {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>jogão (quiz)</h1>
+        <p class="vermelho">Este jogo é um desafio para testar seu nível de conhecimento geral.</p>
+    </header>
+        <button onclick="irParaJogo()">Vamos começar</button>
+    <script>
+        function irParaJogo() {
+            window.location.href = "/pergunta";
+        }
+    </script>
+</body>
+</html>

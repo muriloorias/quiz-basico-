@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pergunta 2</title>
+    <style>
+        body{
+            background-color: #d1c4e9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+        button{
+            width: 20%;
+            padding: 10px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            font-size: small;
+            text-align: center;
+        }
+        hr{
+            background-color: black;
+            color: black;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>de quem é a famosa frasse "não acho que ganhar ou quem perder nem quem ganhar nem perder vai ganhar ou perder, vai todo mundo perder"</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGAY9pWYNDlQbxdRgYR5bqy30HfUVqGehsMrfbmNR8V5nMVYL8fuABsP1kv44LrdhPE4&usqp=CAU">
+    </header>
+    <div>
+        <button onclick="errou()">platão </button>
+        <button onclick="correct()">dilma</button>
+        <button onclick="errou()">descartes </button>
+        <button onclick="errou()">francis bacon</button>
+        <button onclick="errou()">socrates</button>
+    </div>
+    <script>
+        function correct(){
+            window.location.href = "/ultimapergunta"
+        }
+        function errou() {
+            window.location.href = "/errou"
+
+            
+        }
+    </script>
+    
+    
+    
+</body>
+</html>

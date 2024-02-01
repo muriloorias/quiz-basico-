@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ultima pergunta</title>
+    <style>
+        body{
+            background-color: #d1c4e9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+        button{
+            width: 20%;
+            padding: 10px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            font-size: small
+            text
+        }
+        hr{
+            background-color: black;
+            color: black;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Qual é o ponto mais alto do Brasil e em qual estado ele está localizado?</h1>
+        <img src="https://s4.static.brasilescola.uol.com.br/img/2018/12/mapa-brasil-politico.jpg">
+    </header>
+    <div>
+        <button onclick="acertou()">a) Pico da Neblina, localizado no estado do Amazonas.</button>
+        <button onclick="errou()">b) Monte Roraima, situado em Roraima. </button>
+        <button onclick="errou()">c) Pico das Agulhas Negras, no estado do Rio de Janeiro.</button>
+        <button onclick="errou()">d) hong kong, china</button>
+    </div>
+    <script>
+        function acertou(){
+            window.location.href = "/venceu'-'"
+        }
+        function errou(){
+            window.location.href = "/errou"
+        }
+    </script>
+    
+</body>
+</html>

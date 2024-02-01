@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pergunta 1</title>
+    <style>
+        body{
+            background-color: #d1c4e9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+        button{
+            width: 20%;
+            padding: 10px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            font-size: small;
+            text-align: center;
+        }
+        hr{
+            background-color: black;
+            color: black;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>quem foi o descobridor do brasil</h1>
+    <img src="https://s1.static.brasilescola.uol.com.br/be/2020/03/descobrimento-brasil.jpg">    
+</header>
+<div>
+    <button onclick="error()">pedro alveres cabral</button>
+    <button onclick="correct()">dom pedro</button>
+    <button onclick="error()">marechal deodoro fonseca</button>
+    <button onclick="error()">vladimir putin</button>
+</div>
+    <script>
+        function correct(){
+            window.location.href = "/pergunta2";
+        }
+        function error(){
+            window.location.href = "/errou";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0  
+        }
+        h1{
+            color: black;
+            text-align: center;
+            font-size: larger;
+
+        }
+        p{
+            color: black;
+            text-align: center;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>você errou</h1>
+    <p>deseja reiniciar?</p>
+    <button onclick="reiniciarjogo()">reiniciar</button>
+    <button>fechar</button>
+    <script>
+        function reiniciarjogo(){
+            window.location.href = "/";
+        }
+        function fecharjogo(){
+            window.close();
+        }
+    </script>   
+</body>
+</html>
