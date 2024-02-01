@@ -1,4 +1,4 @@
-Quiz Simples em Python e JavaScript
+Quiz Simples em Python e html
 Bem-vindo ao Quiz Simples em Python e HTML! Este é um projeto básico para testar seus conhecimentos gerais. Divirta-se!
 
 Contribuição
